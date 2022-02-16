@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <style>
+      table,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <title>Exercice1</title>
+  </head>
+  <body>
+    <h1>Tableau</h1>
+    <button onclick="Affichage()">Afficher les notes</button>
+    <div>
+      <p>Tableau de depart :</p>
+      <table id="note" >
+        <tbody>
+            <tr id="row">
+
+            </tr>
+        </tbody>
+      </table> <br>
+      <button onclick="Su()">Afficher nombre eleves</button>
+      <p id="nbr"></p>
+      <br>
+      <button onclick="Moyenne()">Afficher moyenne des notes</button>
+      <p id="moy"></p>
+      <br>
+      <button onclick="Max()">Affichage de Moy Max</button>
+      <p id="max"></p>
+      <br>
+      <button onclick="Recherche()">Chercher une note </button>
+      <p id="X"></p>
+      <button onclick="TriBulle()">TriBulle de la tableau </button>
+      <table>
+          <tbody>
+              <tr id="tri">
+
+              </tr>
+          </tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
